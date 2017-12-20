@@ -7,3 +7,6 @@ yarn-error.log
 
 # Node
 node_modules/
+
+# Knex
+dev.sqlite3
