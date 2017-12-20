@@ -2,10 +2,19 @@
   "name": "decent.js",
   "version": "0.1.0",
   "description": "decent's official boilerplate for web applications.",
-  "main": "decent.js",
+  "main": "index.js",
   "author": "Parker McCurley <parker@decentcrypto.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "babel-node src"
+  },
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
   }
 }
