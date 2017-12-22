@@ -76,7 +76,7 @@ $ yarn prepush
 available [here](http://knexjs.org/) and the documentation for `Objection.js` is available
 [here](http://vincit.github.io/objection.js/).
 
-All alterations to the schema and seeding should be handles through `knex` migrations, all querying
+All alterations to the schema and seeding should be handled through `knex` migrations, all querying
 should be handled through `Objection.js`.
 
 Database connection details are stored in the `knexfile.js` and the database connection is
@@ -100,7 +100,7 @@ The application contains a few components:
 
 ### config/
 
-`config/` is a folder for constants, and api-internal configuration.
+`config/` is a folder for constants and api-internal configuration.
 
 ### controllers/
 
@@ -122,3 +122,5 @@ and seed files.
 ### server.js
 
 `server.js` creates our HTTP server.
+
+Made with <3 in Cleveland.
