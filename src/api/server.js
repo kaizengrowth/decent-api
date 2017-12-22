@@ -4,6 +4,8 @@ import morgan from 'morgan';
 
 import routes from './routes';
 
+import { API_PORT } from './config/constants';
+
 export default () => {
   const server = express();
 
@@ -11,7 +13,7 @@ export default () => {
   server.use(morgan("common"));
   server.use(routes());
 
-  server.listen(8000, () => {
-    console.log("A decent API is running on port 8000.");
+  server.listen(API_PORT, () => {
+    console.log(`A decent API is running on port ${API_PORT}.`);
   });
 };

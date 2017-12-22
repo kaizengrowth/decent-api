@@ -16,6 +16,4 @@ const ExamplesController = {
   }
 }
 
-export default () => {
-  return ExamplesController;
-};
+module.exports = ExamplesController;

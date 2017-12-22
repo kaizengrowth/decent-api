@@ -18,5 +18,5 @@ export default class Example extends Model {
         message: { type: "string", maxLength: 255 }
       }
     }
-  };
+  }
 }

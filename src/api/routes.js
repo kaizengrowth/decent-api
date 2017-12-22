@@ -12,13 +12,13 @@ export default () => {
 
 
   router.route("/examples/:exampleId").get((req, res) => {
-    return ExamplesController().getExampleById(req.params.exampleId, res)
+    return ExamplesController.getExampleById(req.params.exampleId, res)
   });
 
   router.route("/examples").get((req, res) => {
-    ExamplesController().getExamples(res)
+    ExamplesController.getExamples(res)
   });
 
 
   return router;
-};
+}

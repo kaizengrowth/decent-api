@@ -1,5 +1,5 @@
 import Knex from 'knex';
-import { objection, Model } from 'objection';
+import { Model } from 'objection';
 
 import { development } from '../../../knexfile.js';
 
