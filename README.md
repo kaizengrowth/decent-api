@@ -1,3 +1,3 @@
-# decent.js
+# api.js
 
-decent's official boilerplate for web applications.
+decent's official boilerplate for web APIs.
