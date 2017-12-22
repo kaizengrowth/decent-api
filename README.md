@@ -123,4 +123,4 @@ and seed files.
 
 `server.js` creates our HTTP server.
 
-Made with <3 in Cleveland.
+Made with :heart: in Cleveland.
