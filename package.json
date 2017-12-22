@@ -1,12 +1,18 @@
 {
-  "name": "decent.js",
+  "name": "api.js",
   "version": "0.1.0",
-  "description": "decent's official boilerplate for web applications.",
+  "description": "decent's official boilerplate for web APIs.",
   "main": "index.js",
   "author": "Parker McCurley <parker@decentcrypto.com>",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node src"
+    "start": "babel-node src",
+    "test": "eslint src"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.13.1"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -15,9 +21,5 @@
     "morgan": "^1.9.0",
     "objection": "^0.9.2",
     "sqlite3": "^3.1.13"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
   }
 }
