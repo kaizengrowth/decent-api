@@ -6,17 +6,20 @@
   "author": "Parker McCurley <parker@decentcrypto.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec node src",
+    "develop": "nodemon --exec babel-node src",
+    "build": "rimraf lib && babel src -d lib",
+    "start": "node lib",
     "lint": "eslint src",
     "precommit": "yarn lint",
-    "prepush": "yarn lint"
+    "prepush": "yarn build && yarn lint"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "eslint": "^4.13.1",
     "husky": "^0.14.3",
-    "nodemon": "^1.14.2"
+    "nodemon": "^1.14.2",
+    "rimraf": "^2.6.2"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
