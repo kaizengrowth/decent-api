@@ -1,4 +1,4 @@
-# api.js
+# decentapi
 
 decent's official boilerplate for web APIs.
 
